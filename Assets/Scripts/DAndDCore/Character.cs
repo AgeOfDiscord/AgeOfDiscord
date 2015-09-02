@@ -2,14 +2,14 @@ namespace DAndDCore
 {
 	public class Character
 	{
-		private Ability abilities;
-		private Skills skills;
-		private Alignment alignment;
-		private int level;
-		private int experience;
-		private BaseRace race;
+		public Ability abilities { get; private set; }
+		public Skills skills { get; private set; }
+		public Alignment alignment { get; private set; }
+		public int level { get; private set; }
+		public int experience { get; private set; }
+		public BaseRace race { get; private set; }
 		
-		private int GetProficiencyBonus() 
+		public int GetProficiencyBonus() 
 		{
 			int result = 2;
 			int t = level / 4;
@@ -22,8 +22,9 @@ namespace DAndDCore
 			return result;
 		}
 		
-		public Character ()
+		public Character (int level)
 		{
+			this.level = level;
 		}
 	}
 }
