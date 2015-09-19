@@ -1,6 +1,7 @@
 namespace DAndDCore 
 {
-	public enum AbilityName {
+	public enum AbilityName 
+	{
 		Strength,
 		Dexterity,
 		Constitution,
