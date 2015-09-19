@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DAndDCore\Abilities.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Ability.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\AbilityName.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Alignment.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Character.cs" />
@@ -55,10 +56,26 @@
      <Compile Include="Assets\Scripts\DAndDCore\Races\ArcticDwarf.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Races\BaseRace.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Races\DeepDwarf.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\Dragonborn.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\Drow.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Races\Dwarf.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\Elf.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\ForestGnome.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Races\Gender.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\Gnome.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\HalfElf.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\HalfOrc.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\Halfling.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\HighElf.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\HillDwarf.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\Human.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\LightfootHalfling.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Races\MountainDwarf.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Races\RaceType.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\RockGnome.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\StoutHalfling.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\Tiefling.cs" />
+     <Compile Include="Assets\Scripts\DAndDCore\Races\WoodElf.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Size.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\Skill.cs" />
      <Compile Include="Assets\Scripts\DAndDCore\SkillName.cs" />
