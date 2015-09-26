@@ -7,14 +7,16 @@ namespace DAndDCore
 		private bool isClass;
 		private bool armorPenalty;
 		private bool untrained;
+		private bool hidden;
 		
-		public Skill (AbilityName ability, int rank, bool isClass, bool armorPenalty, bool untrained)
+		public Skill (AbilityName ability, bool armorPenalty, bool untrained, bool hidden = false, bool isClass = false, int rank = 0)
 		{
 			this.ability = ability;
-			this.rank = rank;
-			this.isClass = isClass;
 			this.armorPenalty = armorPenalty;
 			this.untrained = untrained;
+			this.hidden = hidden;
+			this.rank = rank;
+			this.isClass = isClass;
 		}
 
 		public AbilityName Ability 
@@ -41,10 +43,15 @@ namespace DAndDCore
 			set { armorPenalty = value;}
 		}
 
-		public bool CanUsedUntrained
+		public bool CanBeUsedUntrained
 		{
 			get { return untrained; }
 			set { untrained = value; }
 		}
-	}
+
+		public bool IsHidden 
+		{
+			get { return hidden; }
+			set { hidden = value; }
+		}
 }
