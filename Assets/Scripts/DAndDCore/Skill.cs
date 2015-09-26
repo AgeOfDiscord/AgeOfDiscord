@@ -54,4 +54,5 @@ namespace DAndDCore
 			get { return hidden; }
 			set { hidden = value; }
 		}
+	}
 }
